@@ -1,0 +1,103 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  background: #faf9f6;
+  color: #1a1a1a;
+}
+
+header {
+  background-color: #9E2A2B;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+nav {
+  background: #e9ecef;
+  padding: 0.5rem 0;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  color: #9E2A2B;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+#blog article {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #0001;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+#blog img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+#top3 ol {
+  background: #fff8f0;
+  border: 1px solid #ffe5d9;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+}
+
+#contacto form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  max-width: 400px;
+}
+#contacto input, #contacto textarea {
+  padding: 0.5rem;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+#contacto button {
+  background: #9E2A2B;
+  color: white;
+  border: none;
+  padding: 0.7rem 0;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+}
+#contacto button:hover {
+  background: #7d2122;
+}
+
+footer {
+  background: #2d2d2d;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
